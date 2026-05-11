@@ -1,1 +1,1 @@
-const availablePdf = ["Altenkirch2005","Altenkirch2010","Benioff1980","Deutsch185","LIQUiD2014","Paykin2017QWIRE","Quipper2013","QWIRE2018","VanTonder2003","Yao1993"];
+const availablePdf = ["Altenkirch2010","Benioff1980","Bichsel2020","Deutsch1985","Gay2006","Paykin2017QWIRE","Quipper2013","QWIRE2018","Svore2018","Yao1993"];

@@ -6,7 +6,7 @@
   number       = {5},
   pages        = {563--591},
   year         = {1980},
-  doi	       = {10.1007/BF01011339},
+  doi          = {10.1007/BF01011339},
   keywords     = {category:A, model:QTM, type:foundational, topic:reversible-computation}
 }
 
@@ -17,7 +17,7 @@
   volume       = {400},
   pages        = {97--117},
   year         = {1985},
-  doi 	       = {10.1098/rspa.1985.0070},
+  doi          = {10.1098/rspa.1985.0070},
   keywords     = {category:A, model:QTM, type:foundational, topic:church-turing, topic:universality}
 }
 
@@ -29,34 +29,31 @@
   publisher    = {IEEE Computer Society Press},
   address      = {Los Alamitos, CA},
   year         = {1993},
-  doi	       = {10.1109/SFCS.1993.366852},
+  doi          = {10.1109/SFCS.1993.366852},
   keywords     = {category:A, model:QTM, model:Circuit, type:foundational, topic:equivalence}
 }
 
-@techreport{VanTonder2003,
-  author       = {Van Tonder, Andre},
-  title        = {A Lambda Calculus for Quantum Computation},
-  institution  = {Brown University, Department of Physics},
-  year         = {2003},
-  note         = {Revised 2004},
-  keywords     = {category:B, host:lambda-calculus, type:language, topic:linear-types, topic:reversible-computation}
-}
-
-@techreport{Altenkirch2005,
-  author       = {Altenkirch, Thorsten and Grattage, Jonathan},
-  title        = {A Functional Quantum Programming Language},
-  institution  = {University of Nottingham, School of Computer Science and IT},
-  year         = {2005},
-  keywords     = {category:B, host:standalone, type:language, topic:linear-types, topic:decoherence}
+@article{Gay2006,
+  author       = {Gay, Simon J.},
+  title        = {Quantum Programming Languages: Survey and Bibliography},
+  journal      = {Mathematical Structures in Computer Science},
+  volume       = {16},
+  number       = {4},
+  pages        = {581--600},
+  year         = {2006},
+  doi          = {10.1017/S0960129506005378},
+  keywords     = {category:B, type:survey, topic:overview, topic:taxonomy}
 }
 
 @incollection{Altenkirch2010,
   author       = {Altenkirch, Thorsten and Green, Alexander S.},
   title        = {The Quantum IO Monad},
   booktitle    = {Semantic Techniques in Quantum Computation},
+  editor       = {Gay, Simon and Mackie, Ian},
+  publisher    = {Cambridge University Press},
   pages        = {173--205},
   year         = {2010},
-  doi 	       = {10.1017/CBO9781139193313.006},
+  doi          = {10.1017/CBO9781139193313.006},
   keywords     = {category:B, host:haskell, type:language, topic:monad, topic:reversible-computation, topic:ancillas}
 }
 
@@ -67,18 +64,8 @@
   pages        = {333--342},
   year         = {2013},
   month        = jun,
-  doi	       = {10.1145/2491956.246217},
+  doi          = {10.1145/2491956.2462177},
   keywords     = {category:B, host:haskell, type:language, topic:scalability, topic:type-classes, topic:oracles}
-}
-
-@unpublished{LIQUiD2014,
-author = {Wecker, Dave and Svore, Krysta M.},
-title = {LIQUi|>: A Software Design Architecture and Domain-Specific Language for Quantum Computing},
-year = {2014},
-month = {February},
-abstract = {Languages, compilers, and computer-aided design tools will be essential for scalable quantum computing, which promises an exponential leap in our ability to execute complex tasks. LIQUi|> is a modular software architecture designed to control quantum hardware. It enables easy programming, compilation, and simulation of quantum algorithms and circuits, and is independent of a specific quantum architecture. LIQUi|> contains an embedded, domain-specific language designed for programming quantum algorithms, with F# as the host language. It also allows the extraction of a circuit data structure that can be used for optimization, rendering, or translation. The circuit can also be exported to external hardware and software environments. Two different simulation environments are available to the user which allow a trade-off between number of qubits and class of operations. LIQUi|> has been implemented on a wide range of runtimes as back-ends with a single user front-end. We describe the significant components of the design architecture and how to express any given quantum algorithm.},
-url = {https://www.microsoft.com/en-us/research/publication/liqui-a-software-design-architecture-and-domain-specific-language-for-quantum-computing/},
-  keywords     = {category:B, host:fsharp, type:language, topic:simulation, topic:hardware-control}
 }
 
 @article{Paykin2017QWIRE,
@@ -93,6 +80,19 @@ url = {https://www.microsoft.com/en-us/research/publication/liqui-a-software-des
   keywords     = {category:C, host:embedded, type:verification, topic:linear-types, topic:denotational-semantics}
 }
 
+@inproceedings{Svore2018,
+  author       = {Svore, Krysta and Geller, Alan and Troyer, Matthias and Azariah, John and Granade, Christopher and Heim, Bettina and Kliuchnikov, Vadym and Mykhailova, Mariia and Paz, Andres and Roetteler, Martin},
+  title        = {Q\#: Enabling Scalable Quantum Computing and Development with a High-Level DSL},
+  booktitle    = {Proceedings of the Real World Domain Specific Languages Workshop 2018 (RWDSL2018)},
+  publisher    = {Association for Computing Machinery},
+  address      = {New York, NY, USA},
+  articleno    = {7},
+  numpages     = {10},
+  year         = {2018},
+  doi          = {10.1145/3183895.3183901},
+  keywords     = {category:B, host:standalone, type:language, topic:scalability, topic:hybrid-computation, topic:type-system}
+}
+
 @inproceedings{QWIRE2018,
   author       = {Rand, Robert and Paykin, Jennifer and Zdancewic, Steve},
   title        = {QWIRE Practice: Formal Verification of Quantum Circuits in Coq},
@@ -102,4 +102,16 @@ url = {https://www.microsoft.com/en-us/research/publication/liqui-a-software-des
   year         = {2018},
   doi          = {10.4204/EPTCS.266.8},
   keywords     = {category:C, host:coq, type:verification, topic:denotational-semantics, topic:mechanised-proofs}
+}
+
+@inproceedings{Bichsel2020,
+  author       = {Bichsel, Benjamin and Baader, Maximilian and Gehr, Timon and Vechev, Martin},
+  title        = {Silq: A High-Level Quantum Language with Safe Uncomputation and Intuitive Semantics},
+  booktitle    = {Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020)},
+  publisher    = {Association for Computing Machinery},
+  address      = {New York, NY, USA},
+  pages        = {286--300},
+  year         = {2020},
+  doi          = {10.1145/3385412.3386007},
+  keywords     = {category:B, host:standalone, type:language, topic:uncomputation, topic:type-system, topic:high-level}
 }

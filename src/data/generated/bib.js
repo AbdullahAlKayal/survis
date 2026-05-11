@@ -1,18 +1,12 @@
 ﻿const generatedBibEntries = {
-    "Altenkirch2005": {
-        "author": "Altenkirch, Thorsten and Grattage, Jonathan",
-        "institution": "University of Nottingham, School of Computer Science and IT",
-        "keywords": "category:B, host:standalone, type:language, topic:linear-types, topic:decoherence",
-        "title": "A Functional Quantum Programming Language",
-        "type": "techreport",
-        "year": "2005"
-    },
     "Altenkirch2010": {
         "author": "Altenkirch, Thorsten and Green, Alexander S.",
         "booktitle": "Semantic Techniques in Quantum Computation",
         "doi": "10.1017/CBO9781139193313.006",
+        "editor": "Gay, Simon and Mackie, Ian",
         "keywords": "category:B, host:haskell, type:language, topic:monad, topic:reversible-computation, topic:ancillas",
         "pages": "173--205",
+        "publisher": "Cambridge University Press",
         "title": "The Quantum IO Monad",
         "type": "incollection",
         "year": "2010"
@@ -29,6 +23,18 @@
         "volume": "22",
         "year": "1980"
     },
+    "Bichsel2020": {
+        "address": "New York, NY, USA",
+        "author": "Bichsel, Benjamin and Baader, Maximilian and Gehr, Timon and Vechev, Martin",
+        "booktitle": "Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020)",
+        "doi": "10.1145/3385412.3386007",
+        "keywords": "category:B, host:standalone, type:language, topic:uncomputation, topic:type-system, topic:high-level",
+        "pages": "286--300",
+        "publisher": "Association for Computing Machinery",
+        "title": "Silq: A High-Level Quantum Language with Safe Uncomputation and Intuitive Semantics",
+        "type": "inproceedings",
+        "year": "2020"
+    },
     "Deutsch1985": {
         "author": "Deutsch, David",
         "doi": "10.1098/rspa.1985.0070",
@@ -40,15 +46,17 @@
         "volume": "400",
         "year": "1985"
     },
-    "LIQUiD2014": {
-        "abstract": "Languages, compilers, and computer-aided design tools will be essential for scalable quantum computing, which promises an exponential leap in our ability to execute complex tasks. LIQUi|> is a modular software architecture designed to control quantum hardware. It enables easy programming, compilation, and simulation of quantum algorithms and circuits, and is independent of a specific quantum architecture. LIQUi|> contains an embedded, domain-specific language designed for programming quantum algorithms, with F# as the host language. It also allows the extraction of a circuit data structure that can be used for optimization, rendering, or translation. The circuit can also be exported to external hardware and software environments. Two different simulation environments are available to the user which allow a trade-off between number of qubits and class of operations. LIQUi|> has been implemented on a wide range of runtimes as back-ends with a single user front-end. We describe the significant components of the design architecture and how to express any given quantum algorithm.",
-        "author": "Wecker, Dave and Svore, Krysta M.",
-        "keywords": "category:B, host:fsharp, type:language, topic:simulation, topic:hardware-control",
-        "month": "February",
-        "title": "LIQUi|>: A Software Design Architecture and Domain-Specific Language for Quantum Computing",
-        "type": "unpublished",
-        "url": "https://www.microsoft.com/en-us/research/publication/liqui-a-software-design-architecture-and-domain-specific-language-for-quantum-computing/",
-        "year": "2014"
+    "Gay2006": {
+        "author": "Gay, Simon J.",
+        "doi": "10.1017/S0960129506005378",
+        "journal": "Mathematical Structures in Computer Science",
+        "keywords": "category:B, type:survey, topic:overview, topic:taxonomy",
+        "number": "4",
+        "pages": "581--600",
+        "title": "Quantum Programming Languages: Survey and Bibliography",
+        "type": "article",
+        "volume": "16",
+        "year": "2006"
     },
     "Paykin2017QWIRE": {
         "author": "Paykin, Jennifer and Rand, Robert and Zdancewic, Steve",
@@ -76,7 +84,7 @@
     "Quipper2013": {
         "author": "Green, Alexander S. and Lumsdaine, Peter LeFanu and Ross, Neil J. and Selinger, Peter and Valiron, Beno{\\^i}t",
         "booktitle": "Proceedings of the 34th ACM SIGPLAN Conference on Programming Language Design and Implementation",
-        "doi": "10.1145/2491956.246217",
+        "doi": "10.1145/2491956.2462177",
         "keywords": "category:B, host:haskell, type:language, topic:scalability, topic:type-classes, topic:oracles",
         "month": "jun,",
         "pages": "333--342",
@@ -84,14 +92,18 @@
         "type": "inproceedings",
         "year": "2013"
     },
-    "VanTonder2003": {
-        "author": "Van Tonder, Andre",
-        "institution": "Brown University, Department of Physics",
-        "keywords": "category:B, host:lambda-calculus, type:language, topic:linear-types, topic:reversible-computation",
-        "note": "Revised 2004",
-        "title": "A Lambda Calculus for Quantum Computation",
-        "type": "techreport",
-        "year": "2003"
+    "Svore2018": {
+        "address": "New York, NY, USA",
+        "articleno": "7",
+        "author": "Svore, Krysta and Geller, Alan and Troyer, Matthias and Azariah, John and Granade, Christopher and Heim, Bettina and Kliuchnikov, Vadym and Mykhailova, Mariia and Paz, Andres and Roetteler, Martin",
+        "booktitle": "Proceedings of the Real World Domain Specific Languages Workshop 2018 (RWDSL2018)",
+        "doi": "10.1145/3183895.3183901",
+        "keywords": "category:B, host:standalone, type:language, topic:scalability, topic:hybrid-computation, topic:type-system",
+        "numpages": "10",
+        "publisher": "Association for Computing Machinery",
+        "title": "Q\\#: Enabling Scalable Quantum Computing and Development with a High-Level DSL",
+        "type": "inproceedings",
+        "year": "2018"
     },
     "Yao1993": {
         "address": "Los Alamitos, CA",
