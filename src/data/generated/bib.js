@@ -1,17 +1,103 @@
 ﻿const generatedBibEntries = {
-    "Beck2016Visual": {
-        "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
-        "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
-        "doi": "10.1109/TVCG.2015.2467757",
-        "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser",
-        "number": "01",
-        "publisher": "IEEE",
-        "series": "TVCG",
-        "title": "Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}",
+    "Altenkirch2005": {
+        "author": "Altenkirch, Thorsten and Grattage, Jonathan",
+        "institution": "University of Nottingham, School of Computer Science and IT",
+        "keywords": "category:B, host:standalone, type:language, topic:linear-types, topic:decoherence",
+        "title": "A Functional Quantum Programming Language",
+        "type": "techreport",
+        "year": "2005"
+    },
+    "Altenkirch2010": {
+        "author": "Altenkirch, Thorsten and Green, Alexander S.",
+        "booktitle": "Semantic Techniques in Quantum Computation",
+        "keywords": "category:B, host:haskell, type:language, topic:monad, topic:reversible-computation, topic:ancillas",
+        "pages": "173--205",
+        "title": "The Quantum IO Monad",
+        "type": "incollection",
+        "year": "2010"
+    },
+    "Benioff1980": {
+        "author": "Benioff, Paul",
+        "journal": "Journal of Statistical Physics",
+        "keywords": "category:A, model:QTM, type:foundational, topic:reversible-computation",
+        "number": "5",
+        "pages": "563--591",
+        "title": "The Computer as a Physical System: A Microscopic Quantum Mechanical Hamiltonian Model of Computers as Represented by Turing Machines",
         "type": "article",
-        "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
         "volume": "22",
-        "year": "2016"
+        "year": "1980"
+    },
+    "Deutsch1985": {
+        "author": "Deutsch, David",
+        "journal": "Proceedings of the Royal Society of London. Series A",
+        "keywords": "category:A, model:QTM, type:foundational, topic:church-turing, topic:universality",
+        "pages": "97--117",
+        "title": "Quantum Theory, the Church--Turing Principle and the Universal Quantum Computer",
+        "type": "article",
+        "volume": "400",
+        "year": "1985"
+    },
+    "LIQUiD2014": {
+        "archiveprefix": "arXiv",
+        "author": "Wecker, Dave and Svore, Krysta M.",
+        "eprint": "1402.4467",
+        "institution": "arXiv",
+        "keywords": "category:B, host:fsharp, type:language, topic:simulation, topic:hardware-control",
+        "title": "LIQUi{|>}: A Software Design Architecture and Domain-Specific Language for Quantum Computing",
+        "type": "techreport",
+        "year": "2014"
+    },
+    "Paykin2017QWIRE": {
+        "author": "Paykin, Jennifer and Rand, Robert and Zdancewic, Steve",
+        "doi": "10.1145/3093333.3009894",
+        "journal": "SIGPLAN Notices",
+        "keywords": "category:C, host:embedded, type:verification, topic:linear-types, topic:denotational-semantics",
+        "number": "1",
+        "pages": "846--858",
+        "title": "QWIRE: A Core Language for Quantum Circuits",
+        "type": "article",
+        "volume": "52",
+        "year": "2017"
+    },
+    "QWIRE2018": {
+        "author": "Rand, Robert and Paykin, Jennifer and Zdancewic, Steve",
+        "booktitle": "Electronic Proceedings in Theoretical Computer Science",
+        "doi": "10.4204/EPTCS.266.8",
+        "keywords": "category:C, host:coq, type:verification, topic:denotational-semantics, topic:mechanised-proofs",
+        "pages": "119--132",
+        "title": "QWIRE Practice: Formal Verification of Quantum Circuits in Coq",
+        "type": "inproceedings",
+        "volume": "266",
+        "year": "2018"
+    },
+    "Quipper2013": {
+        "author": "Green, Alexander S. and Lumsdaine, Peter LeFanu and Ross, Neil J. and Selinger, Peter and Valiron, Beno{\\^i}t",
+        "booktitle": "Proceedings of the 34th ACM SIGPLAN Conference on Programming Language Design and Implementation",
+        "keywords": "category:B, host:haskell, type:language, topic:scalability, topic:type-classes, topic:oracles",
+        "month": "jun,",
+        "pages": "333--342",
+        "title": "Quipper: A Scalable Quantum Programming Language",
+        "type": "inproceedings",
+        "year": "2013"
+    },
+    "VanTonder2003": {
+        "author": "Van Tonder, Andre",
+        "institution": "Brown University, Department of Physics",
+        "keywords": "category:B, host:lambda-calculus, type:language, topic:linear-types, topic:reversible-computation",
+        "note": "Revised 2004",
+        "title": "A Lambda Calculus for Quantum Computation",
+        "type": "techreport",
+        "year": "2003"
+    },
+    "Yao1993": {
+        "address": "Los Alamitos, CA",
+        "author": "Yao, Andrew",
+        "booktitle": "Proceedings of the 34th Annual Symposium on the Foundations of Computer Science",
+        "keywords": "category:A, model:QTM, model:Circuit, type:foundational, topic:equivalence",
+        "pages": "352--361",
+        "publisher": "IEEE Computer Society Press",
+        "title": "Quantum Circuit Complexity",
+        "type": "inproceedings",
+        "year": "1993"
     }
 };

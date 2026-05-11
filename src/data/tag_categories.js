@@ -1,5 +1,1 @@
-const userDefinedTagCategories = {
-	"type": {
-		"description": "type of the paper"
-	}
-}
+var tag_categories = ['category', 'host', 'type', 'topic', 'model'];
